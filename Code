@@ -1,0 +1,31 @@
+Question:-1
+
+           1 1 1 1 1 1 1
+           1 0 0 0 0 0 1
+           1 0 0 0 0 0 1
+           1 0 0 * 0 0 1
+           1 0 0 0 0 0 1
+           1 0 0 0 0 0 1
+           1 1 1 1 1 1 1
+
+
+public static void main(String[] args) {
+ 	    	int rowAndCol=7;
+ 	    	for(int i=1;i<=rowAndCol;i++) {
+ 	 	    	for(int j=1;j<=rowAndCol;j++) {
+ 	 	    		if(i==1 || i==rowAndCol || j==rowAndCol || j==1) {
+ 	 	    			System.err.print(" "+1);
+ 	 	    		}
+ 	 	    		else {
+ 	 	    			if(j==4 && i==4) {
+ 	 	 	    			System.out.print(" "+0);
+ 	 	 	    		}else {
+ 	 	 	    			System.err.print(" "+0);
+ 	 	 	    		}
+ 	 	    		}
+ 	 	    	}
+ 	 	    	System.out.println("");
+ 	    	}
+ 	    }
+
+__________________________________________________________________________________________________________________________________________________________________________________
